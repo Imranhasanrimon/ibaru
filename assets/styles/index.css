@@ -1,3 +1,6 @@
+/* this link for Miama font  */
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 * {
     padding: 0;
     margin: 0;
@@ -38,4 +41,14 @@ header nav ul {
 header nav ul a {
     color: white;
     text-decoration: none;
+}
+
+header .hero h1 {
+    font-family: 'Miama', sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
+    color: rgb(111, 0, 255);
+    text-align: center;
+    margin-top: 400px;
+    text-shadow: 0 0 25px rgb(111, 0, 255);
 }
