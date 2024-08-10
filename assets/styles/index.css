@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/hero/IBA.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(68, 60, 133, 0.3);
+    backdrop-filter: blur(5px);
+    padding: 10px 5%;
+}
+
+header nav .logo img {
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav ul a {
+    color: white;
+    text-decoration: none;
+}
